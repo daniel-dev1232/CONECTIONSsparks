@@ -10,7 +10,7 @@
 </picture>
 
 
-# **The Manager**
+# **Connections:Sparks**
 A proposta consiste de uma rede social simples que busce conectar os usários por meio dos seus interesses de forma prática e intuitiva. Apresentado para a feira de ciências escolar.
   
 ### 🛠️ Feito Com

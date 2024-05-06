@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="criarP.css">
+    <link rel="stylesheet" href="/css/criarP.css">
 
 </head>
 <body>
 
-<form action="processar_formulario.php" method="post">
+<form action="/perfil" method="post">
     <h1>Criar Perfil</h1>
     <label for="username">Nome de Usuário:</label>
     <input type="text" id="username" name="username" required>
@@ -19,21 +19,18 @@
     <input type="date" id="birthdate" name="birthdate" required>
 
     <label for="gender">Sexo:</label>
-    <select id="gender" name="gender" required>
-        <option value="">Selecione o Sexo</option>
-        <option value="feminino">Feminino</option>
-        <option value="masculino">Masculino</option>
+    <input type="text" id="gender" name="gênero" required>
     </select>
 
-    <label for="instagram">Usuário do Instagram:</label>
+    <label for="instagram">Usuário do Instagram:</label> <font color="grey">(opcional)</font>
     <input type="text" id="instagram" name="instagram">
      
     <div class="container">
-    <h1 class="biotext">Escreva Sua Biografia</h1>
+    <label for"biotext">Escreva Sua Biografia</h1>
     <textarea class="bio-textarea" placeholder="Escreva sua biografia aqui..."></textarea>
-</div>>
+</div>
     
 </div>
 </form>
-<a href="intere.html">Criar Perfil</a>
+<a href="/perfil">Criar Perfil</a>
 </body>
